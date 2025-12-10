@@ -169,7 +169,7 @@ const HelpModal: React.FC<HelpModalProps> = ({ onClose }) => {
                    <div>
                     <h4 className="font-bold text-slate-800 mb-2 flex items-center gap-2"><CheckCircle2 size={16} className="text-blue-500"/> 第一階段：點數篩選</h4>
                     <ul className="list-disc pl-8 space-y-1 text-slate-600 text-sm">
-                      <li><strong>基本條件：</strong>無欠款、原始點數 > 0。</li>
+                      <li><strong>基本條件：</strong>無欠款、原始點數 &gt; 0。</li>
                       <li><strong>成人奶粉 (05-1)：</strong>優先判定。點數需除以數量。</li>
                       <li><strong>調劑點數：</strong>若品項在「藥師點數清單」中分類為「調劑點數」，全額計分。</li>
                       <li><strong>其他：</strong>若品項在「藥師點數清單」中，全額計分。</li>
